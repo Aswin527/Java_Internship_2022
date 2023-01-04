@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\Coding Playground\100DaysOfCode\Day2\.metadata\.plugins\org.eclipse.jdt.core
+4083530874.index
+2554396215.index
+1767008523.index
+203025878.index
+1865797976.index

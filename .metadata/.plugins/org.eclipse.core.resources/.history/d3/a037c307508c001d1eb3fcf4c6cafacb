@@ -1,0 +1,10 @@
+package com.sample.tostr.ToStr;
+
+public class TestToStr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
