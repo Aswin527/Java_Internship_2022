@@ -6,15 +6,15 @@ public class HashSetToArrayList {
 	public static void main(String[] args) {
 		HashSet<String> h_set = new HashSet<>();
 		 
-		h_set.add("tulip");
-		h_set.add("rose");
-		h_set.add("orchid");
-		h_set.add("marie-gold");
+		h_set.add("java");
+		h_set.add("javascript");
+		h_set.add("c++");
+		h_set.add("python");
  
         System.out.println(h_set);
         ArrayList<String> a= new ArrayList<>(h_set);
 
-        System.out.println("Elements of flower Arraylist are :");
+        System.out.println("Elements of Arraylist are :");
         
         System.out.println(a);
  

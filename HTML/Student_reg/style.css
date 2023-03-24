@@ -1,0 +1,55 @@
+.container{
+    height: 100%;
+    width: 700px;
+    background: linear-gradient( to bottom, cyan, orange);
+    display:flex;
+    justify-content: center;
+    outline: dashed 1px black;
+    align-items: center;  
+}
+
+.container h1{
+    text-align: center;
+}
+
+.form-div{
+    display: table-column;
+    padding: 20px;
+}
+
+.form-div table{
+    outline: dotted 1px black;
+}
+
+.text-field{
+    width: 200px;
+    height: 20px;
+    resize: vertical;
+}
+
+.text-field-t{
+    width: 100px;
+    height: 20px;
+    resize: vertical;
+}
+
+.col-75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.courses{
+    display:flex;
+    flex-direction: column;
+}
+
+.sub-btn{
+    justify-content: center;
+}

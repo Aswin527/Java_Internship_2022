@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">        
+        <div class="form-div">
+            <form name="reg-form">
+                <div>
+                    <div class="col-25"><label>First Name: </label></div>
+                    <div class="col-75"><input type="text" class="text-field"></div>
+                </div>
+                <div>
+                    <div class="col-25"><label>Last Name: </label></div>
+                    <div class="col-75"><input type="text" class="text-field"></div>
+                </div>
+                <div>
+                    <div class="col-25">
+                        <label>Email ID: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" class="text-field">
+                    </div>
+                </div>
+                <div>
+                    <div class="col-25">
+                        <label>Mobile No: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" class="text-field">
+                    </div>
+                </div>
+                <div>
+                    <div class="col-25">
+                        <label>Gender: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="radio">
+                        <label>Male</label>
+                        <input type="radio">
+                        <label>Female</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-25">
+                        <label>Date of Birth: </label>
+                    </div>
+                    <div class="col-75">
+                    <select>
+                        <option>Day</option>
+                    </select>
+                    <select>
+                        <option>Month</option>
+                    </select>
+                    <select>
+                        <option>Year</option>
+                    </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-25">
+                        <label>Address:</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-25">
+                        <label>City: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" class="text-field">
+                    </div>
+                </div>
+                <div>
+                    <div class="col-25">
+                        <label>Pin Code: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" class="text-field">
+                    </div>
+                </div>
+                <div>
+                    <div class="col-25">
+                        <label>State: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" class="text-field">
+                    </div>
+                </div>
+                <div>
+                    <div class="col-25">
+                        <label>Hobbies: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="checkbox"><label>Travelling</label>
+                        <input type="checkbox"><label>Singing</label>
+                        <input type="checkbox"><label>Dancing</label>
+                        <input type="checkbox"><label>Cooking</label>
+                        <input type="checkbox"><label>Others</label><input type="text" class="text-field">
+                    </div>
+                </div>
+                <div>
+                <div class="col-25">
+                <label>Qualification: </label>
+                </div>
+                <div class="col-75">
+                <table>
+                    <tr>
+                        <th>Slno</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>                        
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation (UG)</td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters (PG)</td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>PhD</td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                        <td><input type="text" class="text-field-t"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>(10 char max)</td>
+                        <td>(upto 2 decimal)</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+                <div>
+                <div class="col-25">
+                    <label>Courses</label>
+                </div>
+                <div class="col-75" >
+                    <div class="courses">
+                <div><input type="radio" name="course"><label>BCA (Bachelor of Computer Applications)</label></div>
+                <div><input type="radio" name="course"><label>B.Com (Bachelor of Commerce)</label></div>
+                <div><input type="radio" name="course"><label>B.Sc (Bachelor of Science)</label></div>
+                <div><input type="radio" name="course"><label>BA (Bachelor of Arts)</label></div>
+            </div>
+            </div>
+        </div>
+        <div class="sub-btn">
+                <input type="submit" name="submt" value="Save">
+            </div>
+            
+            </form>
+        </div>
+    </div>
+</body>
+</html>

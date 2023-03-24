@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.signup{
+    width: 100%;
+    min-height: 100vh;
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background: blueviolet;
+}
+
+.div-left{
+    padding: 50px;
+    background: #313131;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: white;
+    justify-content: space-between;
+}
+
+.div-left h4{
+    padding: 5px;
+}
+
+.div-left p{
+    padding: 5px;
+    padding-top: 12px;
+    font-size: 10px;
+}
+
+.div-right{
+    padding: 50px;
+    flex-basis: 50%;
+    flex-grow: 1;
+    background: #ffffff;
+}
+
+.input-box{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    color: black;
+    font-size: 12px;
+    background: transparent;
+    box-shadow: 1;
+}
+
+.row-p{
+    font-size: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.submit-btn{
+    width: 100%;
+    background: blue;
+    color: azure;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.social-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+
+.social-btn #facebook{
+    margin: 7px;
+    height: 40px;
+    background: #395694;
+    border-radius: 2px;
+    border: 2px solid #395694;
+    color: white;
+}
+
+.social-btn #twitter{
+    margin: 7px;
+    height: 40px;
+    background: #1d9bf0;
+    border-radius: 2px;
+    border: 2px solid #1d9bf0;
+    color: white;
+}
+
+.social-btn #google{
+    margin: 7px;
+    height: 40px;
+    background: #d54c3f;
+    border-radius: 2px;
+    border: 2px solid #d54c3f;
+    color: white;
+}
